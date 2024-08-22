@@ -18,6 +18,8 @@ public class Cliente {
 
         public void imprimeCliente() {
                 System.out.println("Nome: " + this.nome);
+                System.out.println("CPF: " + this.CPF);
                 System.out.println("Email: " + this.email);
+                System.out.println("Data de nascimento: " + this.dataNasc);
         }
 }
