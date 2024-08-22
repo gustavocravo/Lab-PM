@@ -16,7 +16,7 @@ public class Cliente {
                 this.dataNasc = dataNasc;
         }
 
-        public void imprimeCliente() {
+        public void imprimirCliente() {
                 System.out.println("Nome: " + this.nome);
                 System.out.println("CPF: " + this.CPF);
                 System.out.println("Email: " + this.email);
