@@ -1,11 +1,9 @@
 public class ItemDeOrcamento {
     private int quantidade;
+    private String produto;
 
-    public ItemDeOrcamento(int quantidade) {
+    public ItemDeOrcamento(String produto, int quantidade) {
+        this.produto = produto;
         this.quantidade = quantidade;
-    }
-
-    public void imprimeItemDeOrcamento() {
-        System.out.println("Quantidade de item de Orçamento: " + this.quantidade);
     }
 }

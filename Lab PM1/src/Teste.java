@@ -18,7 +18,7 @@ public class Teste {
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        Produto produto1 = new Produto(231423, "iPhone 15 Pro Max", 10000, 5, 15, 5);
+        Produto produto1 = new Produto(3242342, "iPhone 15 Pro Max", 10000, 10);
         produto1.imprimeProduto();
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -28,13 +28,8 @@ public class Teste {
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        Orcamento orcamento1 = new Orcamento(4232342, 20000, 5000);
+        Orcamento orcamento1 = new Orcamento(42342, 9000, 1000);
         orcamento1.imprimeOrcamento();
-
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        
-        ItemDeOrcamento itemdeorcamento1 =  new ItemDeOrcamento(10);
-        itemdeorcamento1.imprimeItemDeOrcamento();
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
     }

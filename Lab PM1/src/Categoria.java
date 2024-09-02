@@ -9,10 +9,33 @@ public class Categoria {
         this.departamento = departamento;
     }
 
+    public int getCodCategoria() {
+        return codCategoria;
+    }
+
+    public void setCodCategoria(int codCategoria) {
+        this.codCategoria = codCategoria;
+    }
+
+    public String getNomeCategoria() {
+        return nomeCategoria;
+    }
+
+    public void setNomeCategoria(String nomeCategoria) {
+        this.nomeCategoria = nomeCategoria;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+
     public void imprimirCategoria() {
         System.out.println("Codigo Categoria: " + this.codCategoria);
         System.out.println("Nome: " + this.nomeCategoria);
         System.out.println("Departamento: " + this.departamento);
     }
-
 }
