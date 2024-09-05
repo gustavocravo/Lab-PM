@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Teste {
+public class Principal {
     public static void main(String[] args) throws Exception {
 
         LocalDate date = LocalDate.of(2024, 8, 21);
@@ -32,6 +32,9 @@ public class Teste {
         orcamento1.imprimeOrcamento();
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+        MeioDePgto meioDePgto1 = new MeioDePgto("Credito", 3, 3);
+        meioDePgto1.exibirPagamento();
     }
 }
 

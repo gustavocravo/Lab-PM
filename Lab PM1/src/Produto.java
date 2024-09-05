@@ -36,7 +36,6 @@ public class Produto {
     public boolean removeEstoque(int qtde) {
         if (temEstoque(qtde)) {
             this.quantidade -= qtde;
-            verificaEstoqueSeguranca();
             return true;
         }
         return false;
@@ -50,22 +49,11 @@ public class Produto {
         return this.quantidade >= qtde;
     }
 
-    private void verificaEstoqueSeguranca() {
-        if (this.quantidade < ESTOQUEMINIMO) {
-            geraPedidoCompra();
-        }
-    }
-
-    private void geraPedidoCompra() {
-        System.out.println("Gerando pedido de compra para o produto: " + nomeProduto);
-    }
-
     public void imprimeProduto() {
         System.out.println("Codigo Produto: " + this.codProduto);
         System.out.println("Nome do Produto: " + this.nomeProduto);
         System.out.println("Valor do Produto: " + this.valorProduto);
         System.out.println("Quantidade: " + getQuantidade());
-        verificaEstoqueSeguranca();
     }
 
 }
