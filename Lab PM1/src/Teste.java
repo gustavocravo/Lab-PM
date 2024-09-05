@@ -18,7 +18,7 @@ public class Teste {
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        Produto produto1 = new Produto(3242342, "iPhone 15 Pro Max", 10000, 10);
+        Produto produto1 = new Produto(3242342, "iPhone 15 Pro Max", 10000, 4);
         produto1.imprimeProduto();
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++");

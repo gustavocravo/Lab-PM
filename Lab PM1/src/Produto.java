@@ -65,6 +65,7 @@ public class Produto {
         System.out.println("Nome do Produto: " + this.nomeProduto);
         System.out.println("Valor do Produto: " + this.valorProduto);
         System.out.println("Quantidade: " + getQuantidade());
+        verificaEstoqueSeguranca();
     }
 
 }
